@@ -1,0 +1,1 @@
+As explained in the previous question, changing the rule leads to an infinite loop.

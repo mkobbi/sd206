@@ -1,0 +1,9 @@
+-(((A imp B) and (B imp C)) imp -(-C and A))
+=<[((A imp B) and (B imp C)) and (-C and A))]>
+=<[((A imp B) and (B imp C))],[-C and A]>
+=<[((A imp B) and (B imp C))],[-C], [A]>
+=<[(A imp B)], [(B imp C)], [-C], [A]>
+=<[-A, B], [-B, C], [-C], [A]>
+=<[B], [-B, C], [-C]>
+=<[B], [-B]>
+=<[]>

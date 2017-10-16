@@ -1,0 +1,18 @@
+The issue with the new rule is that it generates an infinite loop.
+Let's look at the following subset of rules
+np --> det, n.
+np --> np, pp.
+np --> [kirk].
+pp --> np, p.
+
+Our sentence is
+Daughter loves her aunt.
+
+The sequences of rules followed would be
+s --> np, vp
+np --> np, pp
+np --> np, pp
+...
+And so on
+
+QED.
